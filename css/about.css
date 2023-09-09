@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+.about {
+    background-color: #fff;
+    padding: 24px;
+}
+
+.about__image {
+    padding: 50px 0 50px 0;
+}
+
+.about__title {
+    font-size: 34px;
+    font-family: 'Signika';
+
+}
+
+.about_text-bold {
+    color: #555;
+    font-size: 20px;
+    font-family: 'Signika';
+    font-weight: bold; 
+    line-height: 1.4;
+}
+
+.about_text {
+    font-family: 'Open Sans';
+    font-size: 16px;
+
+}
