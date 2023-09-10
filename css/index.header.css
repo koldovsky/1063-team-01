@@ -1,0 +1,37 @@
+.header__nav {
+    background-color: #212121;
+}
+
+.header__logo-image {
+    width: 131px;
+    height: auto;
+    position: relative;
+    top: 8px;
+}
+
+.header__reference_list-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header__reference_list-link {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header__reference_list-link:hover {
+    color: #edc100;
+}
+
+.header__reference_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    position: relative;
+    top: -20px;
+    right: 20px;
+}
