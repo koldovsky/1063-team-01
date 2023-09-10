@@ -4,7 +4,42 @@
     box-sizing: border-box;
 }
 
+.about__image {
+    width: 100%;
+}
+
 .join {
     background: url("../images/join-us/athlete-stands-on-his-head.png");
     padding: 35px;
 }
+
+.join__container {
+    padding: 110px 0 100px 0;
+}
+
+.join__title {
+    font-size: 62px;
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join__text {
+    font-size: 20px;
+    font-family: 'Signika', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join a {
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
