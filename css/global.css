@@ -3,14 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
+:root {
+    --yellow: rgb(237, 193, 0);
+    --dirty-white: rgb(201, 201, 201);
+    --light-gray: rgb(85, 85, 85);
+    --gray: rgb(42, 41, 41);
+    --dark-gray: rgb(33, 33, 33);
+    scroll-behavior: smooth;
+}
 
+img {
+    display: block;
+    width: 100%;
+}
 
-/* -- orange #edc100
--- gray (#212121)
--- lightgray (rgb(201, 201, 201)) 
--- subtitle (rgb(85, 85, 85)) */
