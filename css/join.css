@@ -1,38 +1,73 @@
-
 .join {
-    background: url("../images/join-us/athlete-stands-on-his-head.png");
- }
- 
- .join__container {
-    padding: 110px 0 100px 0;
- }
- 
- .join__title {
-    font-size: 62px;
-    font-family: 'Acme', sans-serif;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
- 
- .join__text {
-    font-size: 20px;
-    font-family: 'Signika', sans-serif;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
- 
- .join__links {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
- 
- .join__links a {
-    margin: 10px;
- }
+   margin-top: 70px;
+   background: url("../images/join-us/athlete-stands-on-his-head.png");
+}
+
+.join__container {
+   padding: 100px 24px;
+}
+
+.join__title {
+   font-size: 62px;
+   font-family: 'Acme', sans-serif;
+   text-transform: uppercase;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 5px;
+}
+
+.join__title-line {
+   width: 15%;
+   border-top: 3px solid var(--dark-gray);
+   margin: auto;
+   padding: 5px 0;
+}
+
+.join__text {
+   padding: 10px 20px 20px 20px;
+   font-size: 18px;
+   font-weight: 700;
+   font-family: 'Open Sans', sans-serif;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   line-height: 28.8px;
+}
+
+.join__links {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+}
+
+.join__links a {
+   border-radius: 2px;
+   text-decoration: none;
+   margin: 10px;
+   padding: 12px 25px;
+   font-weight: 900;
+}
+.join__schedule {
+   border: 3px solid var(--dark-gray);
+   color: var(--dark-gray);
+}
+
+.join__schedule:hover {
+   color: #fff;
+   background-color: var(--dark-gray);
+}
+
+.join__sign-up {
+   color: #fff;
+   background-color: var(--dark-gray);
+}
+
+.join__sign-up:hover {
+   color: var(--dark-gray);
+   background-color: #fff;
+}
