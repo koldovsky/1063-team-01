@@ -1,12 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .join {
     background: url("../images/join-us/athlete-stands-on-his-head.png");
     padding: 35px;
+    display: flex;
+    align-items: center;
 }
 
 .join__container {
@@ -35,7 +31,4 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     justify-content: space-between;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
-
