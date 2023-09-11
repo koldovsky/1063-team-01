@@ -1,0 +1,65 @@
+.why-choose-us .why-choose-us__title{
+    font-size: 34px;
+    font-family: 'Signika', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.why-choose-us .why-choose-us__text{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-choose-us__list-item {
+    padding: 15px;
+    margin: 15px;
+    background-color: black;
+}
+
+.why-choose-us .why-choose-us__number {
+    font-size: 62px;
+    color: #edc100;
+    font-family: 'Acme', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-choose-us .why-choose-us__list-title {
+    font-size: 22px;
+    color: white;
+    font-family: 'Signika', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-choose-us .why-choose-us__list-text {
+    font-size: 16px;
+    color: #c9c9c9;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 600px) {
+    
+    .why-choose-us__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    
+    .why-choose-us__cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
