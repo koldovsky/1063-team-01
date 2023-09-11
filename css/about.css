@@ -14,12 +14,12 @@
 
 .about__image {
     padding: 50px 0 50px 0;
+    width: 100%;
 }
 
 .about__title {
     font-size: 34px;
     font-family: 'Signika', sans-serif;
-
 }
 
 .about__text-bold {
@@ -33,7 +33,6 @@
 .about__text {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-
 }
 
 .about__list {
