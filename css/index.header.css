@@ -103,7 +103,7 @@
 .hero_button_schedule {
     border-radius: 2px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 16.5px;
     text-decoration: none;
     color: #fff;
     margin: 20px 0 20px 0;
@@ -118,6 +118,7 @@
 .hero_button_learn-more {
     background-color: var(--yellow);
     border: 2px solid transparent;
+    margin: 10px;
 }
 
 .hero_button_learn-more:hover {
@@ -129,11 +130,26 @@
 .hero_button_schedule {
     background-color: var(--dark-gray);
     border: 2px solid #fff;
+    margin: 10px;
 }
 
 .hero_button_schedule:hover {
     color: var(--dark-gray);
     background-color: #fff;
+}
+
+@media (min-width: 320px) {
+    .hero h1 {
+        font-size: 62px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .container {
+        padding: 30px 24px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -154,4 +170,5 @@
     .hero h1 {
         font-size: 120px;
     }
+
 }
