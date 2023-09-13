@@ -1,64 +1,77 @@
-.why-choose-us .why-choose-us__title{
+.why-choose-us__title{
     font-size: 34px;
     font-family: 'Signika', sans-serif;
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.why-choose-us__heading .divider {
+    width: 5%;
+    border-top: 3px solid var(--yellow);
+    margin: auto;
+    padding: 15px;
+ }
 
-.why-choose-us .why-choose-us__text{
+.why-choose-us__text {
     font-size: 18px;
+    color: var(--light-gray);
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .why-choose-us__list-item {
-    padding: 15px;
     margin: 15px;
-    background-color: black;
+    background-color: var(--gray);
+    background-attachment: scroll;
 }
 
-.why-choose-us .why-choose-us__number {
+.why-choose-us__number {
     font-size: 62px;
-    color: #edc100;
+    color: var(--yellow);
     font-family: 'Acme', sans-serif;
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.why-choose-us .why-choose-us__list-title {
+.why-choose-us__list-item .divider {
+    background-color: white;
+    width: 15%;
+    border-top: 3px;
+    margin: auto;
+    padding: 1px;
+}
+
+.why-choose-us__list-title {
     font-size: 22px;
     color: white;
+    font-weight: bold;
     font-family: 'Signika', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.why-choose-us .why-choose-us__list-text {
+.why-choose-us__list-text {
     font-size: 16px;
-    color: #c9c9c9;
+    color: var(--dirty-white);
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: justify;
+    text-align: center;
 }
 
 @media (min-width: 600px) {
     
     .why-choose-us__cards {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width: 900px) {
-    
-    .why-choose-us__cards {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
