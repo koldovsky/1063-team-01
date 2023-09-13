@@ -8,6 +8,7 @@
 }
 
 .join__title {
+   font-weight: 700;
    font-size: 62px;
    font-family: 'Acme', sans-serif;
    text-transform: uppercase;
@@ -46,14 +47,15 @@
 }
 
 .join__links a {
+   border: 3px solid var(--dark-gray);
    border-radius: 2px;
    text-decoration: none;
-   margin: 10px;
-   padding: 12px 25px;
-   font-weight: 900;
+   margin: 5px;
+   padding: 10px 25px;
+   font-weight: 700;
 }
+
 .join__schedule {
-   border: 3px solid var(--dark-gray);
    color: var(--dark-gray);
 }
 

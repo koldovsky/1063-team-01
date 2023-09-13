@@ -10,7 +10,8 @@
 .about__title {
    padding-bottom: 15px;
    font-size: 34px;
-   font-family: 'Signika', sans-serif;
+   font-family: 'Signika Negative', sans-serif;
+   font-weight: 700;
 }
 
 .about__title-line {
@@ -28,8 +29,9 @@
 }
 
 .about__text {
+   font-weight: 400;
    color: var(--light-gray);
-   padding: 30px 0 0 0;
+   padding: 10px 0 0 0;
    line-height: 27.2px;
    font-family: 'Open Sans', sans-serif;
    font-size: 16px;
@@ -54,7 +56,6 @@
    position: absolute;
    left: 0;
    top: 0;
-   display: flex;
    height: 20px;
    width: 20px;
    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve"><path fill="none" stroke="rgb(237, 193, 0)" stroke-width="2" stroke-miterlimit="10" d="M21,11v8c0,1.1-0.9,2-2,2H5c-1.1,0-2-0.9-2-2V5  c0-1.1,0.9-2,2-2h9"></path><polyline fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="rgb(237, 193, 0)" stroke-width="2" stroke-miterlimit="10" points="21.2,4.6 11.2,15.2 6.8,10.8 "></polyline></svg>');
