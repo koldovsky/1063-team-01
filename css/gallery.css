@@ -1,0 +1,26 @@
+.gallery__title{
+    color: #212121;
+    font-size: 42px;
+    font-family: 'Signika', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery__divider {
+    width: 5%;
+    border-top: 3px solid var(--yellow);
+    margin: auto;
+    padding: 15px;
+ }
+
+.gallery__text {
+    font-size: 18px;
+    color: var(--light-gray);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
