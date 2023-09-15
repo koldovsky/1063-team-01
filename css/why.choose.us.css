@@ -1,17 +1,29 @@
-.why-choose-us__title{
-    font-size: 34px;
+.why-choose-us__cards {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    margin-right: 53px;
+    margin-left: 53px;
+    border: 15px;
+}
+
+.why-choose-us__title {
+    color: var(--dark-gray);
+    font-size: 42px;
     font-family: 'Signika', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 15px;
 }
 
 .why-choose-us__heading .divider {
-    width: 5%;
+    width: 15%;
     border-top: 3px solid var(--yellow);
     margin: auto;
-    padding: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
  }
 
 .why-choose-us__text {
@@ -19,6 +31,7 @@
     color: var(--light-gray);
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,27 +48,33 @@
     color: var(--yellow);
     font-family: 'Acme', sans-serif;
     font-weight: bold;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 15px;
+    padding-top: 20px;
 }
 
 .why-choose-us__list-item .divider {
-    background-color: white;
+    background-color: var(--white);
     width: 15%;
-    border-top: 3px;
+    border-top: 10px;
     margin: auto;
     padding: 1px;
 }
 
 .why-choose-us__list-title {
     font-size: 22px;
-    color: white;
+    color:var(--white);
     font-weight: bold;
     font-family: 'Signika', sans-serif;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .why-choose-us__list-text {
@@ -63,16 +82,18 @@
     color: var(--dirty-white);
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    display: flex;
-    text-align: justify;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
 
-@media (min-width: 600px) {
-    
+@media (min-width: 768px) {
     .why-choose-us__cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-
 }
+    
+

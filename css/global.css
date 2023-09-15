@@ -14,6 +14,7 @@
     --light-gray: rgb(85, 85, 85);
     --gray: rgb(42, 41, 41);
     --dark-gray: rgb(33, 33, 33);
+    --white: rgb(255, 255, 255);
     scroll-behavior: smooth;
 }
 
