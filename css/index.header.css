@@ -1,12 +1,15 @@
+
 .header__nav {
-    background-color: #212121;
+    background-color: var(--dark-gray);
     width: 100%;
+    position: fixed;
 }
 
 .container {
-    background-color: #212121;
+    background-color: var(--dark-gray);
     margin: 0;
     padding: 30px 40px;
+    padding-bottom: 5px;
     max-width: 100%;
 }
 
@@ -17,11 +20,11 @@
 
 
 .navbar-toggler {
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .navbar.navbar-expand-lg.bg-body-tertiary {
-    background-color: #212121;
+    background-color: var(--dark-gray);
     padding: 0;
     margin: 0;
 }
@@ -32,7 +35,8 @@
 }
 
 .hero p {
-    color: #fff;
+    color: var(--white);
+    padding-top: 10px;
     padding-bottom: 35px;
     font-family: 'Open Sans';
     font-weight: bold;
@@ -40,11 +44,19 @@
 }
 
 .hero h1 {
-    color: #fff;
+    color: var(--white);
     font-family: 'Acme';
     padding-left: 24px;
     font-weight: bold;
     font-size: 98px;
+}
+
+.hero_divider {
+    height: 2px;
+    min-width: 3%;
+    width: 12%;
+    background-color: var(--yellow);
+    margin-left: 24px;
 }
 
 .header__logo {
@@ -60,10 +72,9 @@
 
 .header__reference_list-link {
     text-decoration: none;
-    color: white;
+    color: var(--white);
     font-family: 'Open Sans';
     font-size: 16px;
-    /* font-weight: bold; */
     padding: 10px;
 }
 
@@ -91,7 +102,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -110,7 +120,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 16.5px;
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
     margin: 20px 0 20px 0;
     padding: 10px 25px;
     font-weight: 700;
@@ -128,19 +138,61 @@
 
 .hero_button_learn-more:hover {
     color: var(--dark-gray);
-    background-color: #fff;
-    border-color: #fff;
+    background-color: var(--white);
+    border-color: var(--white);
 }
 
 .hero_button_schedule {
     background-color: var(--dark-gray);
-    border: 2px solid #fff;
+    border: 2px solid var(--white);
     margin: 10px;
 }
 
 .hero_button_schedule:hover {
     color: var(--dark-gray);
-    background-color: #fff;
+    background-color: var(--white);
+}
+
+.course-information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background-color: var(--dark-gray);
+}
+
+.course-information-items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    padding: 75px 70px 60px;
+    width: 100%;
+}
+
+.course-information-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex: 1;
+}
+
+.course-information-item-number-block {
+    display: flex;
+    font-family: 'Acme', 'sans-serif';
+    justify-content: center;
+    font-size: 91px;
+    color: var(--yellow);
+}
+
+.course-information-item-description-block {
+    display: flex;
+    font-family: 'Open-sans', sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--dirty-white);
 }
 
 @media (min-width: 320px) {
@@ -154,6 +206,19 @@
 
     .container {
         padding: 30px 24px;
+        padding-bottom: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .course-information-items {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .course-information-item-number-block {
+        font-size: 62px;
     }
 }
 
@@ -176,4 +241,11 @@
         font-size: 120px;
     }
 
+    .course-information-item-number-block {
+        font-size: 120px;
+    }
+
+    .course-information-items {
+        align-items: center;
+    }
 }
