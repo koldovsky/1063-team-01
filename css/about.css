@@ -1,5 +1,5 @@
 .about {
-   background-color: #fff;
+   background-color: var(--color-about-background);
    padding: 24px;
 }
 
@@ -17,11 +17,11 @@
 .about__title-line {
    padding: 10px 0;
    width: 12%;
-   border-top: 3px solid var(--yellow);
+   border-top: 3px solid var(--color-about-decoration-line);
 }
 
 .about__text-bold {
-   color: var(--light-gray);
+   color: var(--color-about-text);
    font-size: 18px;
    font-family: "Open Sans", sans-serif;
    font-weight: 700;
@@ -30,7 +30,7 @@
 
 .about__text {
    font-weight: 400;
-   color: var(--light-gray);
+   color: var(--color-about-text);
    padding: 10px 0 0 0;
    line-height: 27.2px;
    font-family: 'Open Sans', sans-serif;
@@ -38,7 +38,7 @@
 }
 
 .about__list {
-   color: var(--light-gray);
+   color: var(--color-about-text);
    font-family: 'Open Sans', sans-serif;
    font-size: 16px;
    margin-bottom: 50px;
@@ -67,13 +67,13 @@
    font-family: 'Open Sans', sans-serif;
    font-size: 16px;
    text-decoration: none;
-   color: #fff;
-   background-color: var(--yellow);
+   color: var(--color-about-button-text);
+   background-color: var(--color-about-button-background);
    margin: 50px 0 50px 0;
    padding: 10px 25px;
    font-weight: 700;
 }
 
 .about__learn-more:hover {
-   background-color: var(--dark-gray);
+   background-color: var(--color-about-button-background-hover);
 }

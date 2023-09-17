@@ -20,7 +20,7 @@
 
 .join__title-line {
    width: 15%;
-   border-top: 3px solid var(--dark-gray);
+   border-top: 3px solid var(--color-join-decoration-line);
    margin: auto;
    padding: 5px 0;
 }
@@ -47,7 +47,7 @@
 }
 
 .join__links a {
-   border: 3px solid var(--dark-gray);
+   border: 3px solid var(--color-join-button-border);
    border-radius: 2px;
    text-decoration: none;
    margin: 5px;
@@ -56,20 +56,21 @@
 }
 
 .join__schedule {
-   color: var(--dark-gray);
+   color: var(--color-join-schedule-button-text);
 }
 
 .join__schedule:hover {
-   color: #fff;
-   background-color: var(--dark-gray);
+   color: var(--color-join-schedule-button-text-hover);
+   background-color: var(--color-join-schedule-button-background-hover);
 }
 
 .join__sign-up {
-   color: #fff;
-   background-color: var(--dark-gray);
+   color: var(--color-join-sign-up-button-text);
+   background-color: var(--color-join-sign-up-button-background);
 }
 
 .join__sign-up:hover {
-   color: var(--dark-gray);
-   background-color: #fff;
+   border: 3px solid var(--color-join-sign-up-button-border-hover);
+   color: var(--color-join-sign-up-button-text-hover);
+   background-color: var(--color-join-sign-up-button-background-hover);
 }
