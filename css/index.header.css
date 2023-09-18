@@ -120,7 +120,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 16.5px;
     text-decoration: none;
-    color: var(--color-header-learn-more-button-text);
+    color: var(--color-header-button-text);
     margin: 20px 0 20px 0;
     padding: 10px 25px;
     font-weight: 700;
@@ -129,11 +129,6 @@
     width: auto;
 }
 
-.hero_button_schedule {
-    color: var(--color-header-schedule-button-text);
-}
-
-
 .hero_button_learn-more {
     background-color: var(--color-header-hero_button_learn-more-background);
     border: 2px solid transparent;
@@ -141,8 +136,8 @@
 }
 
 .hero_button_learn-more:hover {
-    color: var(--color-hero_button_learn-more-hover);
-    background-color: var(--color-header-button-background-hover);
+    color: var(--color-header-button-text-hover);
+    background-color: var(--color-header-learn-more-button-background-hover);
     border-color: var(--color-header-button_learn-more-border);
 }
 
@@ -153,7 +148,7 @@
 }
 
 .hero_button_schedule:hover {
-    color: var(--color-hero_button_schedule-hover);
+    color: var(--color-join-schedule-button-text-hover);
     background-color: var(--color-header-schedule-button-background-hover);
 }
 
@@ -167,6 +162,7 @@
 
 .course-information-items {
     display: flex;
+    background-color: var(--color-header-course-information-items);
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
