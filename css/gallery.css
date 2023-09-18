@@ -9,8 +9,8 @@
 }
 
 .gallery__divider {
-    padding: 10px 0;
-    width: 12%;
+    padding: 15px 0px;
+    width: 5%;
     border-top: 3px solid var(--color-about-decoration-line);
     margin: auto;
  }
