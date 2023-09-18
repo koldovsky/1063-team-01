@@ -9,15 +9,15 @@
 }
 
 .gallery__divider {
-    width: 5%;
-    border-top: 3px solid var(--yellow);
+    padding: 10px 0;
+    width: 12%;
+    border-top: 3px solid var(--color-about-decoration-line);
     margin: auto;
-    padding: 15px;
  }
 
 .gallery__text {
     font-size: 18px;
-    color: var(--light-gray);
+    color: #555555;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     display: flex;
