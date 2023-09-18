@@ -37,7 +37,7 @@
     --color-header-course-information-items: #212121;
     --color-about-button-background-hover: #212121;
     --color-join-decoration-line: #212121;
-    --color-join-schedule-button-text-hover: #212121;
+    --color-join-schedule-button-text: #212121;
     --color-join-schedule-button-background-hover: #212121;
     --color-join-button-border: #212121;
     --color-join-schedule-button-background: #212121;
@@ -58,6 +58,7 @@
     --color-header-button_learn-more-border: #ffffff;
     --color-about-background: #ffffff;
     --color-about-button-text: #ffffff;
+    --color-join-schedule-button-text-hover: #ffffff;
     --color-join-sign-up-button-text: #ffffff;
     --color-join-sign-up-button-background-hover: #ffffff;
     --color-join-sign-up-button-border-hover: #ffffff;
