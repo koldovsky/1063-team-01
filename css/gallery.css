@@ -9,10 +9,10 @@
 }
 
 .gallery__divider {
-    padding: 15px 0px;
-    width: 5%;
-    border-top: 3px solid var(--color-about-decoration-line);
+    width: 15%;
+    border-top: 3px solid var(--color-gallery-divider);
     margin: auto;
+    padding: 5px 0;
  }
 
 .gallery__text {

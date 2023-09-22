@@ -1,60 +1,37 @@
 <section class="gallery">
-    <header class="gallery">
+    <header class="gallery__top">
         <h2 class="gallery__title">Gallery</h2>
         <div class="gallery__divider"></div>
         <p class="gallery__text">See how the training is conducted in Dubai.</p>
     </header>
-    
-    <!-- responsive thumbnail slider/carousel here -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <link rel="stylesheet" type="text/css" href="cubicslider.css"> -->
-    <div class="swiper-container gallery-top">
-        <div class="top-slide">
-            <img width="1170" class="top-slide" src="images/gallery_slider/sand_training.png" alt="sand training">
-            <img width="1170" class="top-slide" src="images/gallery_slider/training_near_the_sea.png" alt="training near the sea">
-            <img width="1170" class="top-slide" src="images/gallery_slider/beach_workout.png" alt="beach workout">
-            <img width="1170" class="top-slide" src="images/gallery_slider/stance_training.png" alt="stance training">
+    <div class="carousel">
+        <div class="carousel__image-slider swiper-container">
+            <div class="carousel__swiper-wrapper">
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> 
         </div> 
-        <!-- Add Arrows -->
-        <div class="swiper-button-next swiper-button-white"></div>
-        <div class="swiper-button-prev swiper-button-white"></div> 
-    </div>
-    <div class="swiper-thumbnail">
-        <div class="thumbnail-slide">
-            <img width="282" class="thumbnail-slide" src="images/gallery_slider/sand_training.png" alt="sand training">
-            <img width="282" class="thumbnail-slide" src="images/gallery_slider/training_near_the_sea.png" alt="training near the sea">
-            <img width="282" class="thumbnail-slide" src="images/gallery_slider/beach_workout.png" alt="beach workout">
-            <img width="282" class="thumbnail-slide" src="images/gallery_slider/stance_training.png" alt="stance training">
+        <div class="carousel__image-mini-slider swiper-container">
+            <div class="carousel__image-mini-slider swiper-wrapper">
+                <div class="carousel__image-mini-slider swiper-slide">
+                    <div class="carousel__image-mini-slider image">
+                        <img src="images/gallery_slider/sand_training.png" alt="sand training">
+                    </div>
+                </div>
+                <div class="carousel__image-mini-slider swiper-slide">
+                    <div class="carousel__image-mini-slider image">
+                        <img src="images/gallery_slider/training_near_the_sea.png" alt="training near the sea"></div>
+                </div>
+                <div class="carousel__image-mini-slider swiper-slide">
+                    <div class="carousel__image-mini-slider image">
+                        <img src="images/gallery_slider/beach_workout.png" alt="beach workout"></div>
+                </div>
+                <div class="carousel__image-mini-slider swiper-slide">
+                    <div class="carousel__image-mini-slider image">
+                        <img src="images/gallery_slider/stance_training.png" alt="stance training"></div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <!-- Swiper JS -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
-
-    <!-- Initialize Swiper -->
-    <!-- <script>
-        var swiper = new Swiper(".mySwiper", {
-            spaceBetween: 10,
-            slidesPerView: 4,
-            freeMode: true,
-            watchSlidesProgress: true,
-        });
-        var swiper2 = new Swiper(".mySwiper2", {
-            spaceBetween: 10,
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        thumbs: {
-            swiper: swiper,
-        },
-        loop:true,
-        autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-        },
-        });
-  </script> --> -->
 </section>
 
