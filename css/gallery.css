@@ -9,10 +9,11 @@
 }
 
 .gallery__divider {
-    width: 15%;
+    width: 6%;
+    height: 2px;
     border-top: 3px solid var(--color-gallery-divider);
     margin: auto;
-    padding: 15px;
+    padding: 15px 0px;
  }
 
 .gallery__text {
