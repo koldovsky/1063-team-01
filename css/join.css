@@ -74,3 +74,29 @@
    color: var(--color-join-sign-up-button-text-hover);
    background-color: var(--color-join-sign-up-button-background-hover);
 }
+
+@media screen and (min-width: 768px) {
+   .join__container {
+      float: left;
+      width: 45%;
+      padding: 100px 30px;
+   }
+
+   .join__title {
+      font-size: 91px;
+      text-align: center;
+      line-height: 90px;
+   }
+
+   .join__text {
+      padding: 10px 20px 20px 0px;
+   }
+}
+
+@media screen and (min-width: 991px) { 
+   .join__title {
+      font-size: 120px;
+      text-align: center;
+      line-height: 120px;
+   }
+}
