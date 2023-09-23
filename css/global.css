@@ -29,8 +29,10 @@
 
     /* --light-gray: #555555; */
     --color-about-text: #555555;
+    --color-gallery-text: #555555;
 
-    /* --gray: #2a2929; */
+    /* --gray: #2A2929; */
+    --color-background-form-input: #2A2929;
 
     /* --dark-gray: #212121; */
     --color-header-nav-background: #212121;
@@ -45,6 +47,8 @@
     --color-join-schedule-button-background: #212121;
     --color-join-sign-up-button-text-hover: #212121;
     --color-join-sign-up-button-background: #212121;
+    --color-gallery-title: #212121;
+    --color-form-background: #212121;
 
     /* --white: #ffffff; */
     --color-header-navigation: #ffffff;
@@ -64,7 +68,12 @@
     --color-join-sign-up-button-text: #ffffff;
     --color-join-sign-up-button-background-hover: #ffffff;
     --color-join-sign-up-button-border-hover: #ffffff;
+    --color-form-title: #ffffff;
+    --color-form-text: #ffffff;
+    --color-form-submit: #ffffff;
 
+    /* --highly transparent white: #ffffff8A; */
+    --color-form-input-date: #ffffff8A;
 }
 
 img {

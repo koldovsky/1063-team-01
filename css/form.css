@@ -10,14 +10,14 @@
 .form__box {
     width: 570px;
     height: 716.19px;
-    background-color: #212121;
+    background-color: var(--color-form-background);
     margin-left: 15%;
     line-height: 22.5px;
     padding: 40px;
     text-align: center;
 }
 .form__title {
-    color: #FFFFFF;
+    color: var(--color-form-title);
     font-size: 42px;
     font-family: 'Signika', sans-serif;
     font-weight: 600;
@@ -33,21 +33,21 @@
 }
 .form__text {
     font-size: 18px;
-    color: #FFFFFF;
+    color: var(--color-form-text);
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.form-group {
+.form_-input {
     display: block;
     margin: auto;
     width: 85%;
     }
 .form__submit {
     font-size: 15px;
-    color: #FFFFFF;
+    color: var(--color-form-submit);
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     display: flex;

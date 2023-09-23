@@ -1,5 +1,5 @@
-.gallery__title{
-    color: #212121;
+.gallery__title {
+    color: var(--color-gallery-title);
     font-size: 42px;
     font-family: 'Signika', sans-serif;
     font-weight: bold;
@@ -12,12 +12,12 @@
     width: 15%;
     border-top: 3px solid var(--color-gallery-divider);
     margin: auto;
-    padding: 5px 0;
+    padding: 15px;
  }
 
 .gallery__text {
     font-size: 18px;
-    color: #555555;
+    color: var(--color-gallery-text);
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     display: flex;
