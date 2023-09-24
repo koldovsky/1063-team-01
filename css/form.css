@@ -9,51 +9,111 @@
 }
 .form__box {
     width: 570px;
-    height: 716.19px;
-    background-color: var(--color-form-background);
+    height: 716.188px;
+    background-color: var(--color-form-background); /* #212121 */
     margin-left: 15%;
     line-height: 22.5px;
     padding: 40px;
     text-align: center;
 }
+/* .form__head h2 {
+
+} */
 .form__title {
-    color: var(--color-form-title);
+    color: var(--color-form-title); /* #ffffff */
     font-size: 42px;
     font-family: 'Signika', sans-serif;
     font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .form__divider {
     width: 6%;
     height: 2px;
-    border-top: 3px solid var(--color-form-divider);
+    border-top: 3px solid var(--color-form-divider); /* #edc100 */
     margin: auto;
     padding: 15px 0px;
 }
 .form__text {
     font-size: 18px;
-    color: var(--color-form-text);
+    color: var(--color-form-text); /* #ffffff */
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.form__content {
+    margin: 12px 0px 0px;
+    padding: 16px 25px;
+    width: 410px;
+    height: 50px;
+}
 .form__input {
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     display: block;
-    margin: auto;
-    width: 85%;
-    }
+    margin-bottom: 10px;
+}
 .form__submit {
     font-size: 15px;
-    color: var(--color-form-submit);
+    color: var(--color-form-submit); /* #ffffff */
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
+    width: 410px;
+    height: 47px;
+
+    align-items: center;
+    justify-content: center;
+}
+input[type="text"],
+input[type="datetime-local"],
+select {
+    background-color: var(--color-background-form-input); /* Темно-сірий колір для полів вводу */
+    color: #ffffff8A; /* Колір тексту #ffffff8A */
+    border: none;
+    padding: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+/* Зміна кольору тексту для вибраних варіантів у випадаючому списку */
+select option {
+    color: #ffffff8A; /* Колір тексту #ffffff8A */
+}
+
+/* Змінюємо колір фону і тексту кнопки "Send a Request" */
+.form__submit input[type="submit"] {
+    background-color: #2a2929; /* Колір фону кнопки */
+    color: #fff; /* Колір тексту кнопки */
+    border: 2px solid #fff; /* Додаємо білий обрамлення кнопці */
+    padding: 10px 20px; /* Розмір внутрішнього відступу */
+    cursor: pointer; /* Змінюємо курсор на покажчик при наведенні */
+}
+
+/* Змінюємо колір тексту полів вводу та вибору */
+.form__input input[type="text"],
+.form__input input[type="datetime-local"],
+.form__input select {
+    background-color: #2a2929; /* Темно-сірий колір фону полів вводу та вибору */
+    color: #ffffff8A; /* Колір тексту у полях */
+    border: none; /* Видаляємо рамку */
+    padding: 5px; /* Розмір внутрішнього відступу */
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Плавна анімація зміни фону */
+}
+
+/* Змінюємо колір тексту у вибраних варіантах у випадаючому списку */
+.form__input select option {
+    color: #ffffff8A; /* Колір тексту у вибраних варіантах */
+}
+
+/* Змінюємо стиль кнопки "Send a Request" при наведенні */
+.form__submit input[type="submit"]:hover {
+    background-color: #fff; /* Фон стає білим при наведенні */
+    color: #2a2929; /* Текст стає чорним при наведенні */
 }
