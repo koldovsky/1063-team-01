@@ -33,6 +33,7 @@
 
     /* --gray: #2A2929; */
     --color-background-form-input: #2A2929;
+    --color-form-submit-input-hover: #2A2929;
 
     /* --dark-gray: #212121; */
     --color-header-nav-background: #212121;
@@ -71,9 +72,11 @@
     --color-form-title: #ffffff;
     --color-form-text: #ffffff;
     --color-form-submit: #ffffff;
+    --color-form-submit-input-hover-background: #ffffff;
 
     /* --highly transparent white: #ffffff8A; */
     --color-form-input-date: #ffffff8A;
+    --color-form-input-select-option: #ffffff8A;
 }
 
 img {

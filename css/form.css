@@ -72,8 +72,8 @@
 input[type="text"],
 input[type="datetime-local"],
 select {
-    background-color: var(--color-background-form-input); /* Темно-сірий колір для полів вводу */
-    color: #ffffff8A; /* Колір тексту #ffffff8A */
+    background-color: var(--color-background-form-input); 
+    color: var(--color-form-input-select-option); /* #ffffff8A */
     border: none;
     padding: 5px;
     width: 100%;
@@ -82,38 +82,36 @@ select {
 
 /* Зміна кольору тексту для вибраних варіантів у випадаючому списку */
 select option {
-    color: #ffffff8A; /* Колір тексту #ffffff8A */
+    color: var(--color-form-input-select-option); /* #ffffff8A */
 }
 
-/* Змінюємо колір фону і тексту кнопки "Send a Request" */
 .form__submit input[type="submit"] {
-    background-color: #2a2929; /* Колір фону кнопки */
-    color: #fff; /* Колір тексту кнопки */
-    border: 2px solid #fff; /* Додаємо білий обрамлення кнопці */
-    padding: 10px 20px; /* Розмір внутрішнього відступу */
-    cursor: pointer; /* Змінюємо курсор на покажчик при наведенні */
+    background-color: var(--color-form-background); /* #212121 */
+    color: var(--color-form-submit-input-hover-background); /* #ffffff */
+    border: 2px solid var(--color-form-submit-input-hover-background); /* #ffffff */
+    padding: 10px 20px; 
+    cursor: pointer; 
 }
 
-/* Змінюємо колір тексту полів вводу та вибору */
 .form__input input[type="text"],
 .form__input input[type="datetime-local"],
 .form__input select {
-    background-color: #2a2929; /* Темно-сірий колір фону полів вводу та вибору */
-    color: #ffffff8A; /* Колір тексту у полях */
-    border: none; /* Видаляємо рамку */
-    padding: 5px; /* Розмір внутрішнього відступу */
+    background-color: var(--color-form-submit-input-hover); /* #2A2929 */
+    color: var(--color-form-input-select-option); /* #ffffff8A */
+    border: none; 
+    padding: 5px;
     width: 100%;
     font-size: 16px;
-    transition: background-color 0.3s ease; /* Плавна анімація зміни фону */
+    transition: background-color 0.3s ease; 
 }
 
-/* Змінюємо колір тексту у вибраних варіантах у випадаючому списку */
+/* Колір тексту у вибраних варіантах у випадаючому списку */
 .form__input select option {
-    color: #ffffff8A; /* Колір тексту у вибраних варіантах */
+    color: var(--color-form-input-select-option); /* #ffffff8A */
 }
 
-/* Змінюємо стиль кнопки "Send a Request" при наведенні */
+/* Cтиль кнопки "Send a Request" при наведенні */
 .form__submit input[type="submit"]:hover {
-    background-color: #fff; /* Фон стає білим при наведенні */
-    color: #2a2929; /* Текст стає чорним при наведенні */
+    background-color: var(--color-form-submit-input-hover-background); /* #ffffff */
+    color: var(--color-form-submit-input-hover); /* #2A2929 */
 }
