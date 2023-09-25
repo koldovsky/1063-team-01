@@ -1,1 +1,7 @@
-
+.form {
+    background: url(../images/form/background_form.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 900px;
+}
