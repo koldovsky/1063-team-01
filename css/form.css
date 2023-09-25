@@ -4,7 +4,6 @@
     background-position: center;
     background-attachment: fixed;
     min-height: 900px;
-    justify-content: space-around;
     padding-top: 50px;
 }
 .form__box {
@@ -16,9 +15,7 @@
     padding: 40px;
     text-align: center;
 }
-/* .form__head h2 {
 
-} */
 .form__title {
     color: var(--color-form-title); /* #ffffff */
     font-size: 42px;
@@ -47,9 +44,8 @@
 }
 .form__content {
     margin: 12px;
-    padding: 16px 25px;
-    width: 610px;
-    height: 50px;
+    padding: 100px;
+    width: 600px;
 }
 .form__input {
     font-size: 15px;
