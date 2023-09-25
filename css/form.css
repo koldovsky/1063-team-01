@@ -46,9 +46,9 @@
     justify-content: center;
 }
 .form__content {
-    margin: 12px 0px 0px;
+    margin: 12px;
     padding: 16px 25px;
-    width: 410px;
+    width: 610px;
     height: 50px;
 }
 .form__input {
@@ -63,11 +63,8 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     display: flex;
-    width: 410px;
-    height: 47px;
-
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 }
 input[type="text"],
 input[type="datetime-local"],
