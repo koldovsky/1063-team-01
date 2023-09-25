@@ -12,6 +12,7 @@
     height: 716.188px;
     background-color: var(--color-form-background); /* #212121 */
     margin-left: 15%;
+    display: flex;
 }
 
 .form__head {
