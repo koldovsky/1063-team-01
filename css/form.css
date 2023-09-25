@@ -1,7 +1,49 @@
+/*background form*/ 
 .form {
     background: url(../images/form/background_form.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     min-height: 900px;
+    padding: 130px;
+}
+.form__box {
+    width: 570px;
+    height: 716.188px;
+    background-color: var(--color-form-background); /* #212121 */
+    margin-left: 116px;
+    padding: 90px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* .form__head {
+
+} */
+
+.form__title {
+    color: var(--color-form-title); /* #ffffff */
+    font-size: 37px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 600;
+}
+.form__divider {
+    border-top: 3px solid var(--color-form-divider); /* #edc100 */
+    width: 77.89px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 18px;
+    margin-bottom: 14px;
+}
+.form__text {
+    font-size: 18px;
+    color: var(--color-form-text); /* #ffffff */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.form__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
