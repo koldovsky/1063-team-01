@@ -77,7 +77,6 @@
 
 @media screen and (min-width: 768px) {
    .join__container {
-      float: left;
       width: 45%;
       padding: 100px 30px;
    }
