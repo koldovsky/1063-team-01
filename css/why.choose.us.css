@@ -7,10 +7,11 @@
 }
 
 .why-choose-us__title {
-    color: var(--dark-gray);
-    font-size: 42px;
+    color: var(--color-why-choose-us-title);
+    font-size: 32px;
+    font-stretch: 100%;
+    font-weight: bold;
     font-family: 'Signika', sans-serif;
-    font-weight: 700;
     text-align: center;
     display: flex;
     align-items: center;
@@ -19,16 +20,16 @@
 }
 
 .why-choose-us__heading .divider {
-    width: 15%;
-    border-top: 3px solid var(--yellow);
+    width: 10%;
+    border-top: 3px solid var(--color-why-choose-us-title-divider);
     margin: auto;
     padding-bottom: 15px;
     padding-top: 15px;
- }
+}
 
 .why-choose-us__text {
     font-size: 18px;
-    color: var(--light-gray);
+    color: var(--color-why-choose-us-text);
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -39,13 +40,13 @@
 
 .why-choose-us__list-item {
     margin: 15px;
-    background-color: var(--gray);
+    background-color: var(--color-why-choose-us-items-background);
     background-attachment: scroll;
 }
 
 .why-choose-us__number {
     font-size: 62px;
-    color: var(--yellow);
+    color: var(--color-why-choose-us-items-number);
     font-family: 'Acme', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -57,7 +58,7 @@
 }
 
 .why-choose-us__list-item .divider {
-    background-color: var(--white);
+    background-color: var(--color-why-choose-us-items-divider);
     width: 15%;
     border-top: 10px;
     margin: auto;
@@ -66,7 +67,7 @@
 
 .why-choose-us__list-title {
     font-size: 22px;
-    color:var(--white);
+    color: var(--color-why-choose-us-list-title);
     font-weight: bold;
     font-family: 'Signika', sans-serif;
     text-align: center;
@@ -79,7 +80,7 @@
 
 .why-choose-us__list-text {
     font-size: 16px;
-    color: var(--dirty-white);
+    color: var(--color-why-choose-us-list-text);
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -89,11 +90,31 @@
     padding: 15px;
 }
 
+
+.why-choose-us__icon {
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
+
+.why-choose-us__jump_icon {
+    background-image: url('../images/why choose us/logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+    
+}
+
+
 @media (min-width: 768px) {
     .why-choose-us__cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-    
-
