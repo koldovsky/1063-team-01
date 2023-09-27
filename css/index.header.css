@@ -195,6 +195,65 @@
     color: var(--color-header-course-information-text);
 }
 
+.partners-information {
+    padding-top: 60px;
+    padding-bottom: 245px;
+}
+
+.partners-information-background {
+    background-image: url('../images/header/header-background-underclouds.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.partners-information-content {
+    display: flex;
+    padding: 0px 40px;
+    justify-content: center;
+}
+
+.partners-information-content-text {
+    color: white;
+    padding: 0px 15px;
+    width: 300px;
+}
+
+.partners-information-content-text-head {
+    font-size: 42px;
+    font-family: 'Signika', 'sans-serif';
+}
+
+.partners-information-content-text-content {
+    font-size: 18px;
+    font-family: 'Open-sans', 'sans-serif';
+}
+
+.partners-information-content-images {
+    display: flex;
+}
+
+.partners-information-content-image {
+    padding: 0px 15px;
+    text-align: center;
+}
+
+.partners-information-content-image-nike {
+    width: 200px;
+    background-color: #2A2929;
+}
+
+.partners-information-content-image-schwinn {
+    width: 200px;
+    background-color: #2A2929;
+}
+
+.partners-information-content-image-puma {
+    width: 200px;
+    background-color: #2A2929;
+}
+
+
 @media (min-width: 320px) {
     .hero h1 {
         font-size: 62px;
