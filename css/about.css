@@ -1,6 +1,6 @@
 .about {
    background-color: var(--color-about-background);
-   padding: 24px;
+   padding: 50px 24px 100px 24px;
 }
 
 .about__image {

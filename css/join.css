@@ -1,6 +1,9 @@
 .join {
-   margin-top: 70px;
-   background: url("../images/join-us/athlete-stands-on-his-head.png");
+   background-image: url("../images/join-us/athlete-stands-on-his-head.png");
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .join__container {
@@ -76,6 +79,10 @@
 }
 
 @media screen and (min-width: 768px) {
+   .join {
+      height: 600px;
+   }
+
    .join__container {
       width: 45%;
       padding: 100px 30px;
@@ -93,6 +100,10 @@
 }
 
 @media screen and (min-width: 991px) { 
+   .join {
+      height: 750px;
+   }
+
    .join__title {
       font-size: 120px;
       text-align: center;
