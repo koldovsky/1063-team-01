@@ -102,7 +102,11 @@
 @media screen and (min-width: 991px) { 
    .join {
       height: 750px;
-      padding: 100px 150px 100px 150px;
+      padding: 100px 50px;
+   }
+
+   .join__text {
+      padding: 20px 100px;
    }
 
    .join__title {
