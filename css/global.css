@@ -22,6 +22,8 @@
     --color-form-divider: #edc100;
     --color-why-choose-us-title-divider: #edc100;
     --color-why-choose-us-items-number: #edc100;
+    --color-testimonials-title-divider: #edc100;
+    --color-testimonial-username: #edc100;
 
     /* --dirty-white: #c9c9c9; */
     --color-header-course-information-text: #c9c9c9;
@@ -34,11 +36,13 @@
     --color-about-text: #555555;
     --color-gallery-text: #555555;
     --color-why-choose-us-text: #555555;
+    --color-testimonial-text: #555555;
 
     /* --gray: #2A2929; */
     --color-background-form-input: #2A2929;
     --color-form-submit-input-hover: #2A2929;
     --color-why-choose-us-items-background: #2A2929;
+    --color-testimonial-background: #2A2929;
 
     /* --dark-gray: #212121; */
     --color-header-nav-background: #212121;
@@ -56,6 +60,7 @@
     --color-gallery-title: #212121;
     --color-form-background: #212121;
     --color-why-choose-us-title: #212121;
+    --color-testimonials-background: #212121;
 
     /* --white: #ffffff; */
     --color-header-navigation: #ffffff;
@@ -81,6 +86,8 @@
     --color-form-submit-input-hover-background: #ffffff;
     --color-why-choose-us-items-divider: #ffffff;
     --color-why-choose-us-list-title: #ffffff;
+    --color-testimonials-title-text: #ffffff;
+    --color-testimonial-date: #ffffff;
     
     /* --highly transparent white: #ffffff8A; */
     --color-form-input-date: #ffffff8A;
