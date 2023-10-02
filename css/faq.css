@@ -1,0 +1,28 @@
+.faq {
+    background-color: var(--color-faq-background);
+}
+
+.faq__title {
+    text-align: center;
+    color: var(--color-faq-title);
+    font-weight: bold;
+}
+
+.faq__title-underline {
+    width: 50px;
+    border: solid;
+    border-color: var(--color-testimonials-title-divider);
+    border-width: 1px;
+    margin: 16px auto;
+}
+
+.faq__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.faq-answer {
+    min-width: 275px;
+    max-width: 370px;
+    padding: 0px 15px;
+}

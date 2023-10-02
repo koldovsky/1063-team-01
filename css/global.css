@@ -31,12 +31,12 @@
     --color-hero_button_schedule-background: #c9c9c9;
     --color-hero_button_schedule-hover: #c9c9c9;
     --color-why-choose-us-list-text: #c9c9c9;
+    --color-testimonial-text: #c9c9c9;
 
     /* --light-gray: #555555; */
     --color-about-text: #555555;
     --color-gallery-text: #555555;
     --color-why-choose-us-text: #555555;
-    --color-testimonial-text: #555555;
 
     /* --gray: #2A2929; */
     --color-background-form-input: #2A2929;
@@ -61,6 +61,7 @@
     --color-form-background: #212121;
     --color-why-choose-us-title: #212121;
     --color-testimonials-background: #212121;
+    --color-faq-title: #212121;
 
     /* --white: #ffffff; */
     --color-header-navigation: #ffffff;
@@ -95,6 +96,7 @@
 
     /* almost white: #F9F9F9; */
     --color-about-background: #F9F9F9;
+    --color-faq-background: #f9f9f9;
 }
 
 img {
