@@ -3,6 +3,7 @@
     background-color: var(--color-header-nav-background);
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 .container {
@@ -369,7 +370,7 @@
     
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1110px) {
     .partners-information-content-text {
         width: 600px;
     }

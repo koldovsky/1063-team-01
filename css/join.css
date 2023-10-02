@@ -2,7 +2,6 @@
    background-image: url("../images/join-us/athlete-stands-on-his-head.png");
    background-attachment: fixed;
    background-position: center;
-   background-repeat: no-repeat;
    background-size: cover;
 }
 
@@ -102,6 +101,11 @@
 @media screen and (min-width: 991px) { 
    .join {
       height: 750px;
+      padding: 100px 50px;
+   }
+
+   .join__text {
+      padding: 20px 100px;
    }
 
    .join__title {
