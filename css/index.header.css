@@ -3,6 +3,7 @@
     background-color: var(--color-header-nav-background);
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 .container {
@@ -203,7 +204,7 @@
 .partners-information-background {
     background-image: url('../images/header/header-background-underclouds.png');
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
 }
 
@@ -211,6 +212,8 @@
     display: flex;
     padding: 0px 40px;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .partners-information-content-text {
@@ -222,6 +225,18 @@
 .partners-information-content-text-head {
     font-size: 42px;
     font-family: 'Signika', 'sans-serif';
+}
+
+.partners-information-content-text-divider {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    padding: 15px 0px;
+}
+
+.partners-information-divider {
+    height: 2px;
+    width: 18%;
+    background-color: #edc100;
 }
 
 .partners-information-content-text-content {
@@ -236,21 +251,50 @@
 .partners-information-content-image {
     padding: 0px 15px;
     text-align: center;
+    height: 100%;
+    object-fit: contain;
+}
+
+.partners-information-content-image {
+    padding: 0px 15px;
+    text-align: center;
+    height: 100%;
 }
 
 .partners-information-content-image-nike {
     width: 200px;
     background-color: #2A2929;
+    height: 100%;
+    object-fit: contain;
+}
+
+.partners-information-content-image-nike img {
+    height: 100%;
+    object-fit: contain;
 }
 
 .partners-information-content-image-schwinn {
     width: 200px;
     background-color: #2A2929;
+    height: 100%;
+    object-fit: contain;
+}
+
+.partners-information-content-image-schwinn img {
+    height: 100%;
+    object-fit: contain;
 }
 
 .partners-information-content-image-puma {
     width: 200px;
     background-color: #2A2929;
+    height: 100%;
+    object-fit: contain;
+}
+
+.partners-information-content-image-puma img {
+    height: 100%;
+    object-fit: contain;
 }
 
 
@@ -279,6 +323,22 @@
     .course-information-item-number-block {
         font-size: 62px;
     }
+
+    .partners-information {
+        padding-bottom: 160px;
+    }
+
+    .partners-information-content-images {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 50px;
+    }
+
+    .partners-information-content-image {
+        height: 200px;
+        width: 200px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -306,5 +366,12 @@
 
     .course-information-items {
         align-items: center;
+    }
+    
+}
+
+@media (max-width: 1110px) {
+    .partners-information-content-text {
+        width: 600px;
     }
 }
