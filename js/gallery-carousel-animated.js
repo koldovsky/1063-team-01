@@ -39,7 +39,7 @@ function cloneSlide(slide) {
 }
 
 function updateCarousel() {
-    carouselInner.style.transform = translateX(-${currentIndex * 100 / slidesPerView}%);
+    carouselInner.style.transform = `translateX(-${currentIndex * 100 / slidesPerView}%)`;
 }
 
 // Event listeners
