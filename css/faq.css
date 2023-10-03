@@ -6,6 +6,9 @@
     text-align: center;
     color: var(--color-faq-title);
     font-weight: bold;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .faq__title-underline {
@@ -18,10 +21,18 @@
 
 .faq__list {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 15px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .faq-answer {
+    display: block;
     min-width: 275px;
     max-width: 370px;
     padding: 0px 15px;

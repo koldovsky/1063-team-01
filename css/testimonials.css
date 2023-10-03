@@ -1,7 +1,10 @@
 .testimonials {
-    background-color: var(--color-testimonials-background);
-    background-image: unset;
+    background-image: url("../images/testimonials/testimonials-background.png");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-top: 120px;
+    padding-bottom: 200px;
 }
 
 .testimonials__title {
@@ -26,6 +29,10 @@
     justify-content: center;
     gap: 30px;
     margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .testimonial {
@@ -33,6 +40,7 @@
     max-width: 370px;
     background-color: var(--color-testimonial-background);
     padding: 0px 15px;
+    padding-bottom: 30px;
 }
 
 .testimonial__username {
