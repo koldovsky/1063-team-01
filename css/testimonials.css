@@ -21,6 +21,7 @@
     font-size: 18px;
     font-weight: bold;
     color: var(--color-testimonials-title-text);
+    padding: 0 20px;
 }
 
 .testimonials__title-underline {
@@ -45,11 +46,22 @@
 }
 
 .testimonial {
-    min-width: 275px;
-    max-width: 410px;
     background-color: var(--color-testimonial-background);
     padding: 0px 15px;
     padding-bottom: 30px;
+    min-width: 250px;
+}
+
+@media (min-width: 768px) {
+    .testimonial {
+        max-width: calc(100% / 2 - 60px);
+    }
+}
+
+@media (min-width: 992px) {
+    .testimonial {
+        max-width: calc(100% / 3 - 60px);
+    }
 }
 
 .testimonial__pic {

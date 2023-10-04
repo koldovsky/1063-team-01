@@ -38,7 +38,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
-    max-width: 1200px;
+    max-width: 1210px;
     margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
@@ -47,10 +47,24 @@
 }
 
 .faq-answer-the-question {
+    margin: 0, 20px;
     display: block;
-    min-width: 275px;
-    max-width: 370px;
-    padding: 0px 15px 40px 0px;
+    min-width: 260px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+@media (min-width: 815px){
+    .faq-answer-the-question {
+        max-width: calc(100% / 2 - 10px);
+    }
+
+}
+
+@media (min-width: 1145px){
+    .faq-answer-the-question {
+        max-width: calc(100% / 3 - 10px);
+    }
 }
 
 .faq-question {
