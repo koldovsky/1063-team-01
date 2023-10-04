@@ -14,25 +14,20 @@ function getSlidesPerView() {
 }
 
 function setupCarousel() {
-    // Remove clones if they exist
     slides = slides.filter(slide => !slide.classList.contains('clone'));
 
-    // Add clones at start and end for infinite looping
     const clonesStart = slides.slice(-slidesPerView).map(cloneSlide);
     const clonesEnd = slides.slice(0, slidesPerView).map(cloneSlide);
 
-    // Add all slides to the carousel
     carouselInner.innerHTML = '';
     carouselInner.append(...clonesStart, ...slides, ...clonesEnd);
 
-    // Update slides
     slides = Array.from(carouselInner.children);
 
-    // Start automatic sliding
     setInterval(() => {
         currentIndex = (currentIndex + 1) % slides.length;
         updateCarousel();
-    }, 3000);
+    }, 3000); 
 }
 
 function cloneSlide(slide) {
@@ -50,7 +45,7 @@ function updateCarousel() {
             currentIndex = slidesPerView;
             carouselInner.style.transition = 'none';
             carouselInner.style.transform = `translateX(-${currentIndex * 100 / slidesPerView}%)`;
-        }, 500);
+        }, 500); 
     }
 }
 
@@ -58,5 +53,6 @@ window.addEventListener('resize', () => {
     slidesPerView = getSlidesPerView();
     setupCarousel();
 });
+
 
 

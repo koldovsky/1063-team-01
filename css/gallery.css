@@ -3,6 +3,8 @@
     height: 133.8px;
     margin: auto;
     margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .gallery__title {
     color: var(--color-gallery-title);
@@ -19,7 +21,7 @@
     margin: 0 auto;
     margin-top: 18px;
     margin-bottom: 14px;
- }
+}
 .gallery__text {
     font-size: 18px;
     color: var(--color-gallery-text);
@@ -40,7 +42,7 @@
         width: 19.63px;
         height: 2px;
         align-items: center;
-     }
+    }
     .gallery__text {
         width: 357.2px;
         height: 54px;
@@ -61,7 +63,7 @@
         width: 42.24px;
         height: 2px;
         align-items: center;
-     }
+    }
     .gallery__text {
         width: 704px;
         height: 24.8px;
@@ -80,7 +82,7 @@
     }
     .gallery__divider {
         align-items: center;
-     }
+    }
     .gallery__text {
         width: 944px;
         height: 24.8px;

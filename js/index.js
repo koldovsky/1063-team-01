@@ -4,4 +4,5 @@ document.addEventListener('partialsLoaded', () => {
     import('./map.js');
     import('./gallery-carousel.js');
     import('./gallery-carousel-animated.js');
+    import('./form.js');
 });
