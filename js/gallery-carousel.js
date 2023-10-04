@@ -27,6 +27,7 @@ nextButton.addEventListener('click', nextSlide);
 
 function prevSlide() {
     currentSlide = currentSlide - 1 < 0 ? slides.length - 1 : currentSlide - 1;
+    renderSlide();
 }
 
 const prevButton = document.querySelector('.gallery__carousel-btn-prev');
