@@ -102,7 +102,7 @@
     width: 1170px;
     overflow: hidden;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .animated-carousel__inner {
     display: flex;
@@ -123,19 +123,4 @@
         flex: 0 0 33.33%;
     }
 }
-.animated-carousel .carousel__button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.7);
-    border: none;
-    font-size: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-.animated-carousel .carousel__button--prev {
-    left: 10px;
-}
-.animated-carousel .carousel__button--next {
-    right: 10px;
-}
+

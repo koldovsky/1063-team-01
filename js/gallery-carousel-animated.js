@@ -1,11 +1,9 @@
 const carousel = document.querySelector('.animated-carousel');
 const carouselInner = carousel.querySelector('.animated-carousel__inner');
-const prevButton = carousel.querySelector('.carousel__button--prev');
-const nextButton = carousel.querySelector('.carousel__button--next');
 
 let slidesPerView = getSlidesPerView();
 let slides = Array.from(carouselInner.children);
-let currentIndex = slidesPerView;
+let currentIndex = 0;
 
 setupCarousel();
 
@@ -24,12 +22,17 @@ function setupCarousel() {
     const clonesEnd = slides.slice(0, slidesPerView).map(cloneSlide);
 
     // Add all slides to the carousel
+    carouselInner.innerHTML = '';
     carouselInner.append(...clonesStart, ...slides, ...clonesEnd);
 
     // Update slides
     slides = Array.from(carouselInner.children);
 
-    updateCarousel();
+    // Start automatic sliding
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % slides.length;
+        updateCarousel();
+    }, 3000);
 }
 
 function cloneSlide(slide) {
@@ -39,42 +42,21 @@ function cloneSlide(slide) {
 }
 
 function updateCarousel() {
+    carouselInner.style.transition = 'transform 0.5s ease-in-out';
     carouselInner.style.transform = `translateX(-${currentIndex * 100 / slidesPerView}%)`;
+
+    if (currentIndex >= slides.length - slidesPerView) {
+        setTimeout(() => {
+            currentIndex = slidesPerView;
+            carouselInner.style.transition = 'none';
+            carouselInner.style.transform = `translateX(-${currentIndex * 100 / slidesPerView}%)`;
+        }, 500);
+    }
 }
-
-// Event listeners
-prevButton.addEventListener('click', () => {
-    if (--currentIndex < 0) {
-        currentIndex = slides.length - slidesPerView * 2 - 1;
-        carouselInner.style.transition = 'none';
-        updateCarousel();
-        // Allow transition to complete, then reset transition style
-        requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-                carouselInner.style.transition = '';
-            });
-        });
-    }
-    updateCarousel();
-});
-
-nextButton.addEventListener('click', () => {
-    carouselInner.style.transition = ''; // Ensure transition is not 'none'
-    if (++currentIndex >= slides.length - slidesPerView) {
-        currentIndex = slidesPerView;
-        carouselInner.style.transition = 'none';
-        updateCarousel();
-        // Allow transition to complete, then reset transition style
-        requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-                carouselInner.style.transition = '';
-            });
-        });
-    }
-    updateCarousel();
-});
 
 window.addEventListener('resize', () => {
     slidesPerView = getSlidesPerView();
     setupCarousel();
 });
+
+
