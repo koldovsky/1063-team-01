@@ -32,7 +32,7 @@ function setupCarousel() {
     setInterval(() => {
         currentIndex = (currentIndex + 1) % slides.length;
         updateCarousel();
-    }, 3000);
+    }, 3000); // Прокручувати кожні 3 секунди (змініть за потребою)
 }
 
 function cloneSlide(slide) {
@@ -45,12 +45,13 @@ function updateCarousel() {
     carouselInner.style.transition = 'transform 0.5s ease-in-out';
     carouselInner.style.transform = `translateX(-${currentIndex * 100 / slidesPerView}%)`;
 
+    // Перевірка, чи досягнутий кінець каруселі, і якщо так, перейти на початок
     if (currentIndex >= slides.length - slidesPerView) {
         setTimeout(() => {
             currentIndex = slidesPerView;
             carouselInner.style.transition = 'none';
             carouselInner.style.transform = `translateX(-${currentIndex * 100 / slidesPerView}%)`;
-        }, 500);
+        }, 500); // Час затримки, щоб анімація завершилася перед зміною стилів
     }
 }
 
@@ -58,5 +59,6 @@ window.addEventListener('resize', () => {
     slidesPerView = getSlidesPerView();
     setupCarousel();
 });
+
 
 

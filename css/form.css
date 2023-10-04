@@ -50,14 +50,16 @@
 .form__input input[type="text"],
 .form__input input[type="datetime-local"],
 .form__input select {
-    background-color: var(--color-form-submit-input-hover); /* #2A2929 */
+    font-weight: bold;
     color: var(--color-form-input-select-option); /* #ffffff8A */
+    background-color: var(--color-form-submit-input-hover); /* #2A2929 */
     border: none; 
     padding: 5px;
     font-size: 15px;
     width: 100%;
     transition: background-color 0.3s ease; 
     text-indent: 20px; 
+    height: 42px;
 }
 .form__submit {
     font-size: 15px;
@@ -92,7 +94,6 @@
     .form__box {
         width: 327px;
         height: 712.77px;
-        background-color: var(--color-form-background); /* #212121 */
         margin-left: 25px;
         padding: 46px;
         text-align: center;
