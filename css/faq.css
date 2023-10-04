@@ -9,7 +9,6 @@
     font-family: Signika, sans-serif;
     font-size: 42px;
     font-weight: bold;
-    width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -20,7 +19,7 @@
     font-family: Open sans, sans-serif;
     font-size: 18px;
     font-weight: bold;
-    width: 50%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -54,19 +53,6 @@
     padding-bottom: 40px;
 }
 
-@media (min-width: 815px){
-    .faq-answer-the-question {
-        max-width: calc(100% / 2 - 10px);
-    }
-
-}
-
-@media (min-width: 1145px){
-    .faq-answer-the-question {
-        max-width: calc(100% / 3 - 10px);
-    }
-}
-
 .faq-question {
     color: var(--color-faq-question);
     font-family: Signika, sans-serif;
@@ -79,4 +65,24 @@
     color: var(--color-faq-answer);
     font-family: Open sans, sans-serif;
     font-size: 16px;
+}
+
+@media (min-width: 815px){
+    .faq-answer-the-question {
+        max-width: calc(100% / 2 - 10px);
+    }
+    
+    .faq__subtitle {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1145px){
+    .faq-answer-the-question {
+        max-width: calc(100% / 3 - 10px);
+    }
+
+    .faq__subtitle {
+        width: 40%;
+    }
 }
