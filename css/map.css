@@ -1,0 +1,100 @@
+#mapworkout {
+    height: 760px;
+    width: 100%;
+}
+
+.leaflet-tile-pane {
+    filter: grayscale(100%) invert(100%);
+    background-color: #212121;
+}
+
+.map-info-panel {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color: #2a2929;
+    height: 370px;
+    width: 333px;
+    text-align: center;
+    z-index: 500;
+    animation: fadein 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-info-panel_title {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: var(--color-why-choose-us-items-number);
+    padding-top: 10px;
+}
+
+.map-info-panel_name {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--color-header-text);
+    
+}
+
+.map-info-panel_adress {
+    font-family: "Opens Sans", sans-serif;
+    font-size: 16px;
+    color: var(--color-why-choose-us-list-text);
+    padding: 10px;
+}
+
+.map-info-panel_phone {
+    font-family: "Opens Sans", sans-serif;
+    font-size: 16px;
+    color: var(--color-why-choose-us-items-number);
+    font-weight: bold;
+}
+
+.map-info-panel_mail {
+    font-family: "Opens Sans", sans-serif;
+    font-size: 16px;
+    color: var(--color-why-choose-us-items-number);
+    font-weight: bold;
+}
+
+@keyframes fadein {
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 900px) {
+    #mapworkout {
+        height: 1000px;
+    }
+
+    @media (max-width: 900px) {
+
+        .map-info-panel {
+            position: absolute;
+            top: 80%;
+            /* Встановлюємо половину висоти вікна */
+            left: 50%;
+            /* Встановлюємо половину ширини вікна */
+            transform: translate(-50%, -50%);
+            /* Зміщуємо до центру */
+            width: 360px;
+            /* Зменшуємо ширину панелі */
+            height: 300px;
+
+        }
+
+        @media(max-width:800px) {
+            .map-info-panel {
+                width: 50%;
+
+            }
+        }
