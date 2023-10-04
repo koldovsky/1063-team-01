@@ -4,12 +4,21 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 120px;
-    padding-bottom: 200px;
+    padding-bottom: 230px;
 }
 
 .testimonials__title {
     text-align: center;
-    font-family: "Open Sans",sans-serif;
+    font-family: Signika, sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: var(--color-testimonials-title-text);
+}
+
+.testimonials__subtitle {
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
     font-weight: bold;
     color: var(--color-testimonials-title-text);
 }
@@ -23,7 +32,7 @@
 }
 
 .testimonials__list {
-    max-width: 1200px;
+    max-width: 1265px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -37,28 +46,42 @@
 
 .testimonial {
     min-width: 275px;
-    max-width: 370px;
+    max-width: 410px;
     background-color: var(--color-testimonial-background);
     padding: 0px 15px;
     padding-bottom: 30px;
 }
 
+.testimonial__pic {
+    width: 100%;
+    margin: 60px auto 30px auto;
+    enable-background:new 0 0 100 100;
+    max-width:100%;
+    color: var(--color-testimonial-img);
+}
+
 .testimonial__username {
     margin: 0px 35px 0px 35px;
     text-align: center;
+    font-family: Signika, sans-serif;
     font-weight: bold;
+    font-size: 22px;
     color: var(--color-testimonial-username);
 }
 
 .testimonial__text {
-    margin: 0px 37px 0px 37px;
+    margin: 20px 37px 0px 37px;
     text-align: center;
+    font-family: Open sans, sans-serif;
+    font-size: 16px;
     color: var(--color-testimonial-text);
 }
 
 .testimonial__date {
-    margin: 0px 35px 0px 35px;
+    margin: 20px 35px 0px 35px;
     text-align: center;
     font-weight: bold;
+    font-family: Open sans, sans-serif;
+    font-size: 14px;
     color: var(--color-testimonial-date);
 }

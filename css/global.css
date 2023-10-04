@@ -37,6 +37,8 @@
     --color-about-text: #555555;
     --color-gallery-text: #555555;
     --color-why-choose-us-text: #555555;
+    --color-faq-subtitle: #555555;
+    --color-faq-answer: #555555;
 
     /* --gray: #2A2929; */
     --color-background-form-input: #2A2929;
@@ -62,6 +64,8 @@
     --color-why-choose-us-title: #212121;
     --color-testimonials-background: #212121;
     --color-faq-title: #212121;
+    --color-faq-question: #212121;
+    
 
     /* --white: #ffffff; */
     --color-header-navigation: #ffffff;
@@ -89,6 +93,7 @@
     --color-why-choose-us-list-title: #ffffff;
     --color-testimonials-title-text: #ffffff;
     --color-testimonial-date: #ffffff;
+    --color-testimonial-img: #ffffff;
     
     /* --highly transparent white: #ffffff8A; */
     --color-form-input-date: #ffffff8A;
