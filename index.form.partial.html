@@ -6,10 +6,10 @@
         <form action="https://formspree.io/f/xyyqnbvb" method="post">
             <div class="form__content">
                 <div class="form__input">
-                    <input type="text" name="Name*" placeholder="Name*" required>
+                    <input type="text" name="Name*" placeholder="Name*" pattern="[A-Za-z]+" required>
                 </div>
                 <div class="form__input">
-                    <input type="text" id="phoneNumber" name="Phone number*" placeholder="Phone number*" required>
+                    <input type="tel" id="phoneNumber" name="Phone number*" placeholder="Phone number*" pattern="[0-9]+" required>
                 </div>
                 <div class="form__input">
                     <input type="text" id="date" name="date" placeholder="Choose date*" required>

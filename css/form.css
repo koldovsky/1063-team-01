@@ -48,6 +48,7 @@
     line-height: 42px;
 }
 .form__input input[type="text"],
+.form__input input[type="tel"],
 .form__input input[type="datetime-local"],
 .form__input select {
     font-weight: bold;
