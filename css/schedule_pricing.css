@@ -1,4 +1,12 @@
 .schedule-pricing {
+    background-color: #212121;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.schedule-pricing2 {
     background-color: black;
     color: white;
     text-align: center;
@@ -36,12 +44,212 @@
 }
 
 .schedule-pricing .w-divider-component-wrapper {
+    width: 42.24px;
+    height: 2px;
+    border-top: 2px solid #edc100;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 18px;
+    margin-bottom: 14px;
+}
 
+.w-text-content-wrapper {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+}
+
+.w-text-content-wrapper .w-text-content {
+    font-weight: 700;
+    color: white;
+}
+
+.w-section__inner {
+    max-width: 100%;
+    margin: 0 176px;
+    padding: 0 15px;
+}
+
+.w-grid__inner {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    text-align: center;
 
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
+.section-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.training-card, .pricing-card {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.training-card:nth-child(3), .training-card:nth-child(4) {
+    margin-top: 30px;
+}
+
+.training-card .training-card-inner {
+    background: #2a2929;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.training-card .training-card-inner .image-wrapper {
+    height: 100%;
+    flex: 1;
+    padding-top: 0.5rem;
+}
+
+.training-card .training-card-inner .image-wrapper .image-wrapper-inner {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.training-card .training-card-inner .image-wrapper img {
+    /* width: 100%; */
+    /* height: auto; */
+    /* border-radius: 50%; */
+
+    position: absolute;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-family: "object-fit:cover";
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.training-card .training-card-inner .card-wrapper {
+    margin-left: .5rem;
+    flex: 3;
+    text-align: left;
+}
+
+.training-card .training-card-inner .card-wrapper strong {
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.training-card .training-card-inner .card-wrapper .time {
+    margin-top: 15px;
+    color: #edc100;
+    font-size: 18px;
+}
+
+
+.schedule-pricing .pricing-cards {
+    margin-top: 3rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.schedule-pricing .pricing-cards li:not(:first-child) {
+    margin-top: 1rem;
+}
+
+.schedule-pricing .pricing-cards .w-grid__item {
+    flex-basis: 100%;
+    padding: 35px 30px;
+    background-color: #2a2929;
+}
+
+.schedule-pricing .pricing-cards .pricing-card {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    min-width: 100%;
+}
+
+.schedule-pricing .pricing-cards .pricing-card .col {
+    flex-grow: 2;
+}
+
+.schedule-pricing .pricing-cards .pricing-card .col:first-child {
+    flex-grow: 1;
+}
+
+.schedule-pricing .pricing-cards .pricing-card .col .icon-wrapper {
+    height: 70px;
+    width: 70px;
+}
+
+.schedule-pricing .pricing-cards .pricing-card .col .icon-wrapper svg {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+.schedule-pricing .pricing-cards .pricing-card .col .col-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+}
+
+.schedule-pricing .pricing-cards .pricing-card .col .title {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.schedule-pricing .pricing-cards .pricing-card .col .yellow {
+    color: #edc100;
+    margin-right: .5rem;
+}
+
+.schedule-pricing .pricing-cards .pricing-card .col .btn {
+    padding: 5px 15px;
+    color: #edc100;
+    cursor: pointer;
+    padding: 16px 25px;
+    border-radius: 0;
+    transition: all 0.2s;
+}
+
+.schedule-pricing .pricing-cards .pricing-card .col .btn:hover {
+    background-color: #edc100;
+    color: white;
+}
+
+
+@media screen and (max-width: 900px) {
+    .w-section__inner {
+        margin: 0 100px;
+    }
+}
